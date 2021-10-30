@@ -14,45 +14,6 @@ from main.transcribe_yt import TranscribeYtVideo
 import secrets
 from glob import glob
 
-# Hide Footer in Streamlit
-hide_menu_style = """
-        <style>
-        footer {visibility: hidden;}
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
-
-# Add footer to UI
-footer="""<style>
-a:link , a:visited{
-color: blue;
-background-color: transparent;
-text-decoration: underline;
-}
-
-a:hover,  a:active {
-color: red;
-background-color: transparent;
-text-decoration: underline;
-}
-
-.footer {
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-background-color: black;
-color: white;
-text-align: center;
-}
-</style>
-<div class="footer">
-<p>Developed with ❤ by <a style='display: block; text-align: center;' href="https://github.com/anshulp2912/scrivener" target="_blank">Scrivener</a></p>
-<p><a style='display: block; text-align: center;' href="https://github.com/anshulp2912/scrivener/blob/main/LICENSE" target="_blank">MIT License Copyright (c) 2021 Anshul Patel</a></p>
-<p>Contributors: Anshul, Bhavya, Darshan, Pragna, Rohan</p>
-</div>
-"""
-st.markdown(footer,unsafe_allow_html=True)
 
 # Download the uploaded video file
 def save_file(file):
@@ -61,7 +22,7 @@ def save_file(file):
     return 
 
 # Display Image
-st.image("media/logo/logo.gif")
+# st.image("../media/logo/logo.gif")
 
 # Display Radio options
 input_format = st.radio('Choose your input format', ['Youtube Link', 'Upload a Video'])
