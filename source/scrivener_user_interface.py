@@ -44,7 +44,7 @@ if input_format=='Youtube Link':
     youtube_link = st.text_input('Enter Youtube Link')
     # Check if its a valid youtube link
     if re.findall('(www\.youtube\.com\/watch\?v=)',youtube_link):
-        st.video(youtube_link)
+        # st.video(youtube_link)
         # Make a progress bar
         progress_bar = st.progress(0)
         # Decorative material
@@ -63,8 +63,9 @@ if input_format=='Youtube Link':
         # Complete progress bar to 100
         progress_bar.progress(100)
         # Display Summary
-        st.header('Summary')
+        st.subheader('Summary')
         st.write(summary)
+        st.balloons()
         
     
     # If user inputs an invalid Youtube link
