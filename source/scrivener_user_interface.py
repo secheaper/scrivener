@@ -21,6 +21,10 @@ def save_file(file):
         f.write(file.getbuffer())
     return 
 
+wittyThings = ['Hired Shakespeare to summarize your video', 'Taking advice from Charles Dickens to help you',
+                                        'Shakespeare is completing the assignment', 'Do not worry, Mark Twain is on it',
+                                        'Robert Frost is taking the right road to summarize your video']
+
 # Display Image
 # st.image("../media/logo/logo.gif")
 
@@ -32,7 +36,7 @@ st.markdown("""
 """)
 st.subheader("Choose a video to start")
 # Display Radio options
-input_format = st.radio('Choose your input format', ['Youtube Link', 'Upload a Video'])
+input_format = st.radio('Select an input format', ['Youtube Link', 'Upload a Video'])
 
 # If user provides a Youtube Link
 if input_format=='Youtube Link':
@@ -44,9 +48,7 @@ if input_format=='Youtube Link':
         # Make a progress bar
         progress_bar = st.progress(0)
         # Decorative material
-        progress_lines = secrets.choice(['Hired Shakespeare to summarize your video', 'Taking advice from Charles Dickens to help you',
-                                        'Shakespeare is completing the assignment', 'Do not worry, Mark Twain is on it',
-                                        'Robert Frost is taking the right road to summarize your video'])
+        progress_lines = secrets.choice(wittyThings)
         progress_bar.progress(10)
         
         # Wait till we run the summarization
@@ -79,9 +81,7 @@ elif input_format=='Upload a Video':
         progress_bar = st.progress(0)
         progress_bar.progress(10)
         # Decorative material
-        progress_lines = secrets.choice(['Hired Shakespeare to summarize your video', 'Taking advice from Charles Dickens to help you',
-                                        'Shakespeare is completing the assignment', 'Do not worry, Mark Twain is on it',
-                                        'Robert Frost is taking the right road to summarize your video'])
+        progress_lines = secrets.choice(wittyThings)
         # Wait till we run the summarization
         with st.spinner(progress_lines+' . . .'):
             progress_bar.progress(25)
