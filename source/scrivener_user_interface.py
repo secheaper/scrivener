@@ -25,7 +25,12 @@ def save_file(file):
 # st.image("../media/logo/logo.gif")
 
 st.title(":sunflower:Transcriptor!")
-
+st.markdown("""
+    Transcriptor is a summarization tool which uses video transcripts to generate a 
+    concise summary for the content of any given video. Currently, Transcriptor supports
+    summarization of YouTube and local video files.
+""")
+st.subheader("Choose a video to start")
 # Display Radio options
 input_format = st.radio('Choose your input format', ['Youtube Link', 'Upload a Video'])
 
