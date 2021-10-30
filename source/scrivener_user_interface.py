@@ -24,6 +24,8 @@ def save_file(file):
 # Display Image
 # st.image("../media/logo/logo.gif")
 
+st.title(":sunflower:Transcriptor!")
+
 # Display Radio options
 input_format = st.radio('Choose your input format', ['Youtube Link', 'Upload a Video'])
 
