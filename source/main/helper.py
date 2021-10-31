@@ -1,13 +1,15 @@
 def formatText(txt)->str:
     res = ""
-    for i in range(len(txt)):
-        if i == 0 and txt[i] >= 'a' and txt[i] <= 'z':
-            res += chr(ord(txt[i]) - 32)
-        elif i > 0 and txt[i-1] == '.' and txt[i] == " ":
+    lines = txt.split(".")
+
+    for line in lines:
+        line.rstrip()
+        line.lstrip()
+        if len(line) == 0:
             continue
-        elif i > 0 and res[-1] == '.' and txt[i] >= 'a' and txt[i] <= 'z':
-            res += chr(ord(txt[i]) - 32)
+        if line[0] >= 'a' and line[0] <= 'z':
+            res += " " + chr(ord(line[0]) - 32) + line[1:] + "."
         else:
-            res += txt[i]
+            res += " " + line + "."
     
     return res
