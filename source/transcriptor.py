@@ -99,6 +99,7 @@ elif input_format=='Upload a Video':
         # Display Summary
         st.header('Summary')
         st.write(summary)
+        st.balloons()
     else:
         for name in glob('*.mp4'):
             os.remove(name)
