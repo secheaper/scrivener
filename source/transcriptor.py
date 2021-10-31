@@ -77,7 +77,7 @@ elif input_format=='Upload a Video':
     # Browse button for uploading .mp4 files
     file = st.file_uploader('Upload a video',type=['mp4'],accept_multiple_files=False)
     if file is not None:
-        st.video(file)
+        # st.video(file)
         # Make a progress bar
         progress_bar = st.progress(0)
         progress_bar.progress(10)
