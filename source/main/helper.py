@@ -3,8 +3,8 @@ def formatText(txt)->str:
     lines = txt.split(".")
 
     for line in lines:
-        line.rstrip()
-        line.lstrip()
+        line = line.rstrip()
+        line = line.lstrip()
         if len(line) == 0:
             continue
         if line[0] >= 'a' and line[0] <= 'z':
