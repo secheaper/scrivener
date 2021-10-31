@@ -11,6 +11,7 @@ import re
 import os
 from main.transcribe import TranscribeVideo
 from main.transcribe_yt import TranscribeYtVideo
+from main.helper import formatText
 import secrets
 from glob import glob
 
@@ -64,7 +65,7 @@ if input_format=='Youtube Link':
         progress_bar.progress(100)
         # Display Summary
         st.subheader('Summary')
-        st.write(summary)
+        st.write(formatText(summary))
         st.balloons()
         
     

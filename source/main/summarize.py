@@ -55,4 +55,4 @@ class Summary:
             #appending summary output of each chunk to summary_text list
             summary_text.append(output)
         #return summary_text to calling function
-        return summary_text 
+        return summary_text
