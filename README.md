@@ -19,11 +19,11 @@
 - [SCRIVENER](#scrivener)
   - [Table of Contents](#table-of-contents)
   - [:book: Introduction <a name="Introduction"></a>](#book-introduction-)
-  - [Demo <a name="Demo"></a>](#demo-)
-  - [Steps for Execution <a name="ExecutionSteps"></a>](#steps-for-execution-)
-  - [License <a name="License"></a>](#license-)
-  - [Contributions <a name="Contributions"></a>](#contributions-)
-  - [Future Scope <a name="FutureScope"></a>](#future-scope-)
+  - [:fire: Demo <a name="Demo"></a>](#fire-demo-)
+  - [:rocket: Steps for Execution <a name="ExecutionSteps"></a>](#rocket-steps-for-execution-)
+  - [:page_facing_up: License <a name="License"></a>](#page_facing_up-license-)
+  - [:sparkle: Contributions <a name="Contributions"></a>](#sparkle-contributions-)
+  - [:crystal_ball:Future Scope <a name="FutureScope"></a>](#crystal_ballfuture-scope-)
   - [Team Members <a name="TeamMember"></a>](#team-members-)
   - [Acknowledgements <a name="Acknowledgement"></a>](#acknowledgements-)
 
@@ -37,12 +37,12 @@ Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of
 
 The complete development was achieved using the Python3 technology and it is recommended that the next set of developers who take up this project have these technologies installed and keep them running before proceeding further.
 
-## Demo <a name="Demo"></a>
+## :fire: Demo <a name="Demo"></a>
 The project is deployed on both Streamlit cloud and Heroku.
 - [Streamlit](https://share.streamlit.io/anshulp2912/scrivener/main/source/scrivener_user_interface.py)
 - [Heroku](https://scrivener-heroku.herokuapp.com/)
 
-## Steps for Execution <a name="ExecutionSteps"></a>
+## :rocket: Steps for Execution <a name="ExecutionSteps"></a>
 1. Clone the Git repository.
 2. Run `pip install -r requirements.txt`
 3. Open Command Prompt and change the directory to the location of cloned repository.
@@ -52,13 +52,13 @@ The project is deployed on both Streamlit cloud and Heroku.
 
 <img src="https://github.com/anshulp2912/scrivener/blob/main/media/demo.PNG" />
 
-## License <a name="License"></a>
+## :page_facing_up: License <a name="License"></a>
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
 
-## Contributions <a name="Contributions"></a>
+## :sparkle: Contributions <a name="Contributions"></a>
 Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
-## Future Scope <a name="FutureScope"></a>
+## :crystal_ball:Future Scope <a name="FutureScope"></a>
 For enhancement of this project following functionalities can be implemented
 - Currently our application supports youtube videos and videos with .mp4 extension. Provide support for other video formats
 - Perform summarization for videos in languages other than English
