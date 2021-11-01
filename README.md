@@ -22,7 +22,7 @@
   - [:fire: Demo <a name="Demo"></a>](#fire-demo-)
   - [:rocket: Steps for Execution <a name="ExecutionSteps"></a>](#rocket-steps-for-execution-)
   - [:page_facing_up: License <a name="License"></a>](#page_facing_up-license-)
-  - [:pencil: Contributions <a name="Contributions"></a>](#pencil-contributions-)
+  - [:pencil2: Contributions <a name="Contributions"></a>](#pencil2-contributions-)
   - [:crystal_ball:Future Scope <a name="FutureScope"></a>](#crystal_ballfuture-scope-)
   - [:sparkles: Team Members <a name="TeamMember"></a>](#sparkles-team-members-)
   - [:pray: Acknowledgements <a name="Acknowledgement"></a>](#pray-acknowledgements-)
@@ -55,7 +55,7 @@ The project is deployed on both Streamlit cloud and Heroku.
 ## :page_facing_up: License <a name="License"></a>
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
 
-## :pencil: Contributions <a name="Contributions"></a>
+## :pencil2: Contributions <a name="Contributions"></a>
 Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
 ## :crystal_ball:Future Scope <a name="FutureScope"></a>
