@@ -1,5 +1,5 @@
 <h1 align="center">
- <img src="https://github.com/anshulp2912/scrivener/blob/main/media/logo/logo.gif" />
+ <img src="https://github.com/secheaper/transcriptor/blob/pratik_10/31/media/demo.PNG" />
 </h1>
 
 # SCRIVENER 
