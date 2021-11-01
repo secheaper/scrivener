@@ -11,7 +11,7 @@ import re
 import os
 from main.transcribe import TranscribeVideo
 from main.transcribe_yt import TranscribeYtVideo
-from main.helper import formatText
+from main.helper import formatText, analyze
 import secrets
 from glob import glob
 

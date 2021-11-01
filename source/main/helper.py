@@ -1,3 +1,5 @@
+import requests
+
 def formatText(txt)->str:
     """
     This function formats the summary.
@@ -16,3 +18,13 @@ def formatText(txt)->str:
             res += " " + line + "."
     
     return res
+
+def analyze(txt):
+    r = requests.post(
+        "https://api.deepai.org/api/sentiment-analysis",
+        data={
+            'text': txt,
+        },
+        headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
+    )
+    return r.json()['output']
