@@ -1,4 +1,7 @@
 def formatText(txt)->str:
+    """
+    This function formats the summary.
+    """
     res = ""
     lines = txt.split(".")
 
