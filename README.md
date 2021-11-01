@@ -22,10 +22,10 @@
   - [:fire: Demo <a name="Demo"></a>](#fire-demo-)
   - [:rocket: Steps for Execution <a name="ExecutionSteps"></a>](#rocket-steps-for-execution-)
   - [:page_facing_up: License <a name="License"></a>](#page_facing_up-license-)
-  - [:sparkle: Contributions <a name="Contributions"></a>](#sparkle-contributions-)
+  - [:pencil: Contributions <a name="Contributions"></a>](#pencil-contributions-)
   - [:crystal_ball:Future Scope <a name="FutureScope"></a>](#crystal_ballfuture-scope-)
-  - [Team Members <a name="TeamMember"></a>](#team-members-)
-  - [Acknowledgements <a name="Acknowledgement"></a>](#acknowledgements-)
+  - [:sparkles: Team Members <a name="TeamMember"></a>](#sparkles-team-members-)
+  - [:pray: Acknowledgements <a name="Acknowledgement"></a>](#pray-acknowledgements-)
 
 ## :book: Introduction <a name="Introduction"></a>
 
@@ -55,7 +55,7 @@ The project is deployed on both Streamlit cloud and Heroku.
 ## :page_facing_up: License <a name="License"></a>
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
 
-## :sparkle: Contributions <a name="Contributions"></a>
+## :pencil: Contributions <a name="Contributions"></a>
 Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
 ## :crystal_ball:Future Scope <a name="FutureScope"></a>
@@ -73,7 +73,7 @@ For enhancement of this project following functionalities can be implemented
 - Provide Sentiment Analysis of the generated summary
 - Develop a Discord BOT for SCRIVENER
 
-## Team Members <a name="TeamMember"></a>
+## :sparkles: Team Members <a name="TeamMember"></a>
 
 - Anshul Navinbhai Patel
 - Bhavya Omprakash Agrawal
@@ -81,7 +81,7 @@ For enhancement of this project following functionalities can be implemented
 - Pragna Bollam
 - Rohan Jigarbhai Shah
 				
-## Acknowledgements <a name="Acknowledgement"></a>
+## :pray: Acknowledgements <a name="Acknowledgement"></a>
 We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
 - [https://streamlit.io/](https://streamlit.io/)
 - [https://huggingface.co/](https://huggingface.co/)
