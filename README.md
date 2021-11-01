@@ -2,7 +2,7 @@
  <img src="https://github.com/secheaper/transcriptor/blob/pratik_10/31/media/demo.PNG" />
 </h1>
 
-# SCRIVENER 
+# TRANSCRIPTOR 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 [![GitHub issues](https://img.shields.io/github/issues/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/issues)
@@ -16,7 +16,7 @@
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_pg9M32LiG8&ab_channel=AnshulPatel)
 
 ## Table of Contents
-- [SCRIVENER](#scrivener)
+- [TRANSCRIPTOR](#transcriptor)
   - [Table of Contents](#table-of-contents)
   - [:book: Introduction <a name="Introduction"></a>](#book-introduction-)
   - [:fire: Demo <a name="Demo"></a>](#fire-demo-)
@@ -29,7 +29,7 @@
 
 ## :book: Introduction <a name="Introduction"></a>
 
-Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features. Our second goal of the project is to create a summarizer which can summarize the youtube videos which have captions disabled. Our project can be further expanded for numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
+Transcriptor is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features. Our second goal of the project is to create a summarizer which can summarize the youtube videos which have captions disabled. Our project can be further expanded for numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
 
 <h1 align="center">
  <img src="https://github.com/anshulp2912/scrivener/blob/main/media/working_animation/scrivener_working.gif" />
