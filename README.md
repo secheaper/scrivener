@@ -10,19 +10,22 @@
 [![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
+![GitHub repo file count](https://img.shields.io/github/directory-file-count/secheaper/transcriptor)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_pg9M32LiG8&ab_channel=AnshulPatel)
 
 ## Table of Contents
-- [Introduction](#Introduction)
-- [Demo](#Demo)
-- [Steps for Execution](#ExecutionSteps)
-- [License](#License)
-- [Contributions](#Contributions)
-- [Future Scope](#FutureScope)
-- [Team Members](#TeamMember)
-- [Acknowledgements](#Acknowledgement)
+- [SCRIVENER](#scrivener)
+  - [Table of Contents](#table-of-contents)
+  - [Introduction <a name="Introduction"></a>](#introduction-)
+  - [Demo <a name="Demo"></a>](#demo-)
+  - [Steps for Execution <a name="ExecutionSteps"></a>](#steps-for-execution-)
+  - [License <a name="License"></a>](#license-)
+  - [Contributions <a name="Contributions"></a>](#contributions-)
+  - [Future Scope <a name="FutureScope"></a>](#future-scope-)
+  - [Team Members <a name="TeamMember"></a>](#team-members-)
+  - [Acknowledgements <a name="Acknowledgement"></a>](#acknowledgements-)
 
 ## Introduction <a name="Introduction"></a>
 
