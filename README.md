@@ -10,7 +10,7 @@
 [![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
-![GitHub repo file count](https://img.shields.io/github/directory-file-count/secheaper/transcriptor)
+![Discord Discussion Chat](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat&style=flat-square)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_pg9M32LiG8&ab_channel=AnshulPatel)
