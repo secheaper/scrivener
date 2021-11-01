@@ -61,11 +61,15 @@ if input_format=='Youtube Link':
             # Get summary
             summary = transcribe_video.transcribe_yt_video()
             progress_bar.progress(80)
-        # Complete progress bar to 100
-        progress_bar.progress(100)
+        # Complete progress bar to 90
+        progress_bar.progress(90)
+        # Analyze sentiment
+        sentiment = analyze(summary)
         # Display Summary
         st.subheader('Summary')
         st.write(formatText(summary))
+        progress_bar.progress(100)
+        st.markdown(f'Our analysis says that this text is **{sentiment[0]}**')
         st.balloons()
         
     
@@ -95,11 +99,15 @@ elif input_format=='Upload a Video':
             progress_bar.progress(60)
             # Get summary
             summary = transcribe_video.transcribe_video(os.path.join(os.getcwd(), file.name))
-        # Complete progress bar to 100
-        progress_bar.progress(100)
+        # Complete progress bar to 90
+        progress_bar.progress(90)
+        # Analyze sentiment
+        sentiment = analyze(summary)
         # Display Summary
         st.header('Summary')
         st.write(summary)
+        progress_bar.progress(100)
+        st.markdown(f'Our analysis says that this text is **{sentiment[0]}**')
         st.balloons()
     else:
         for name in glob('*.mp4'):

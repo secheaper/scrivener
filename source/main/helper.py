@@ -25,6 +25,11 @@ def analyze(txt):
         data={
             'text': txt,
         },
-        headers={'api-key': 'quickstart-QUdJIGlzIGNvbWluZy4uLi4K'}
+        headers={'api-key': 'f68ff4f3-ee00-4008-a5dd-685b1e704656'}
     )
-    return r.json()['output']
+    js = r.json()
+    try:
+        return js['output']
+    except KeyError:
+        print(js)
+        return [None]
