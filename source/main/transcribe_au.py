@@ -38,30 +38,32 @@ class TranscribeAudio:
         self.summary = ''
         
     def transcribe_audio(self, ip_path):
-         """
-         Generate summary from
-          """
-          audio = mp.AudioFileClip(ip_path)
-          if not os.path.exists(os.getcwd()+"/temp"):
-                os.mkdir('temp')
-          audio.write_audiofile(os.getcwd() + '/temp/temp_audio.wav')
-          num_of_files = self.split_init()
-          transcript_text = ''
-          #Read through all chunks of audio files
-          for i in range(num_of_files):
+
+        audio = mp.AudioFileClip(ip_path)
+        if not os.path.exists(os.getcwd()+"/temp"):
+            os.mkdir('temp')
+        audio.write_audiofile(os.getcwd() + '/temp/temp_audio.wav')
+        num_of_files = self.split_init()
+        transcript_text = ''
+        #Read through all chunks of audio files
+        for i in range(num_of_files):
             recognizer = sr.Recognizer()
             #Read single audio file chunk
-            audio = sr.AudioFile("temp/"+str(i*2) +"_temp_audio.wav")
+            if num_of_files == 1:
+                audio = sr.AudioFile("temp/temp_audio.wav")
+            else:
+                audio = sr.AudioFile("temp/"+str(i*2) +"_temp_audio.wav")
             #Get audio data
             with audio as src:
                 audio_data = recognizer.record(src)
+            
             #Perform speech to text and store the text
             transcript_text += recognizer.recognize_google(audio_data)
             #Call the summarization script
             transcript_summary = Summary(transcript_text)
             summary = transcript_summary.summarize_text()
             for lines in summary:
-              print(lines)
+                print(lines)
             #Join summary list with ' '
             self.summary = '\n'.join(summary)
             

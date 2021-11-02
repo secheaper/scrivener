@@ -84,6 +84,9 @@ class splitwavaudio():
             split duration in mins
         """
         total_mins = math.ceil(self.get_duration() / 60)
+        print("Total mins: ", total_mins)
+        if total_mins < 2:
+            return 1
         num_of_splits = total_mins / min_per_split
         # Call single_split to create multiple wav files
         for i in range(0, total_mins, min_per_split):

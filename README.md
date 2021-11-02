@@ -8,6 +8,7 @@
 [![DOI](https://zenodo.org/badge/415427314.svg)](https://zenodo.org/badge/latestdoi/415427314)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
+![Discord Discussion Chat](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat&style=flat-square)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 
@@ -55,13 +56,13 @@ streamlit transcriptor.py
 The project is deployed on Streamlit Cloud
 - [Streamlit](https://share.streamlit.io/secheaper/transcriptor/main/source/transcriptor.py)
 
-## License <a name="License"></a>
+## :page_facing_up: License <a name="License"></a>
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
 
-## Contributions <a name="Contributions"></a>
+## :pencil2: Contributions <a name="Contributions"></a>
 Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
-## Future Scope <a name="FutureScope"></a>
+## :crystal_ball:Future Scope <a name="FutureScope"></a>
 For enhancement of this project following functionalities can be implemented
 - Currently our application supports youtube videos and videos with .mp4 extension. Provide support for other video formats
 - Perform summarization for videos in languages other than English
