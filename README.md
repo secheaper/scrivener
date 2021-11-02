@@ -11,7 +11,7 @@
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 
-Transcriptor is a web application that generates quick summary and analyzes sentiment for videos using advanced Natural Language Processing techniques. 
+Transcriptor is a web application that generates a quick summary and analyzes sentiment for videos using advanced Natural Language Processing techniques. 
 - **Fast**: Transcriptor helps you save over 70% of your time by quickly providing a summary to highlight key points from videos
 - **Easy**: A simple and friendly web interface is provided used to summarize videos 
 - **Powerful**: Transcriptor uses TensorFlow libraries to get highly accurate summaries in no time
