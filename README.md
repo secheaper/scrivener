@@ -5,7 +5,7 @@
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/secheaper/transcriptor)
 ![Github pull requests](https://img.shields.io/github/issues-pr/secheaper/transcriptor)
 [![GitHub forks](https://img.shields.io/github/forks/secheaper/transcriptor)](https://github.com/secheaper/transcriptor/network)
-[![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
+[![DOI](https://zenodo.org/badge/415427314.svg)](https://zenodo.org/badge/latestdoi/415427314)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
