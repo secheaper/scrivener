@@ -47,7 +47,7 @@ pip install -r requirements.txt
 3. Once all the requirements are installed, you will have to ```cd``` into the ```source``` folder. Once in the ```source``` folder, use the streamlit command to run the ```transcriptor.py``` file
 ```
 cd source
-streamlit transcriptor.py
+streamlit run transcriptor.py
 ```
 4. If all went well, you should see the Network URL where this application is running on your local computer
 
