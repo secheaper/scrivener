@@ -41,7 +41,7 @@ cd slash
 ```
 2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of those
 ```
-pip3 install -r requirements.txt
+pip install -r requirements.txt
 ```
 3. Once all the requirements are installed, you will have to ```cd``` into the ```source``` folder. Once in the ```source``` folder, use the streamlit command to run the ```transcriptor.py``` file
 ```
