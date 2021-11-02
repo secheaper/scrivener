@@ -68,16 +68,14 @@ Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/m
 For enhancement of this project following functionalities can be implemented
 - Currently our application supports youtube videos and videos with .mp4 extension. Provide support for other video formats
 - Perform summarization for videos in languages other than English
-- Generate summary of Podcasts or other audiofiles
 - Provide summary in form of video
 - Generate summary of videos for specific time frames
 - Compare various Summarization models and provide optimal summary
 - UI Enhancement
-- Provide summary in form of audio
 - Generate summary of audio for specific time frames
-- Adding Chrome extension for SCRIVENER
+- Adding Chrome extension for Transcriptor
 - Provide Sentiment Analysis of the generated summary
-- Develop a Discord BOT for SCRIVENER
+- Develop a Discord BOT for transcriptor
 
 :heart: Acknowledgements
 ---
