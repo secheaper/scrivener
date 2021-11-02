@@ -1,18 +1,13 @@
-<h1 align="center">
- <img src="https://github.com/anshulp2912/scrivener/blob/main/media/logo/logo.gif" />
-</h1>
-
-# SCRIVENER 
+# Add Repo Image 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-[![GitHub issues](https://img.shields.io/github/issues/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/issues)
-[![GitHub forks](https://img.shields.io/github/forks/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/network)
+[![GitHub issues](https://img.shields.io/github/issues/secheaper/transcriptor)](https://github.com/secheaper/transcriptor/issues)
+[![GitHub forks](https://img.shields.io/github/forks/secheaper/transcriptor)](https://github.com/secheaper/transcriptor/network)
 [![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
-[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_pg9M32LiG8&ab_channel=AnshulPatel)
 
 ## Table of Contents
 - [Introduction](#Introduction)
