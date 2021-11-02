@@ -19,7 +19,7 @@ Transcriptor is a web application that generates quick summary and analyzes sent
 <p align="center">
   <a href="#rocket-installation">Installation</a>
   ::
-  <a href="#fireworkd-demo-website">Demo Website</a>
+  <a href="#sunflower-demo-website">Demo Website</a>
   ::
   <a href="#card_index_dividers-some-examples">Examples</a>
   ::
@@ -50,7 +50,7 @@ streamlit transcriptor.py
 ```
 4. If all went well, you should see the Network URL where this application is running on your local computer
 
-:fireworks: Demo Webiste
+:sunflower: Demo Webiste
 ---
 The project is deployed on Streamlit Cloud
 - [Streamlit](https://share.streamlit.io/secheaper/transcriptor/main/source/transcriptor.py)
