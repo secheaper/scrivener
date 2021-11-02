@@ -76,13 +76,23 @@ For enhancement of this project following functionalities can be implemented
 - Provide Sentiment Analysis of the generated summary
 - Develop a Discord BOT for SCRIVENER
 
-## Team Members <a name="TeamMember"></a>
+:sparkles: Contributors
+---
 
-- Anshul Navinbhai Patel
-- Bhavya Omprakash Agrawal
-- Darshan Manharbhai Patel
-- Pragna Bollam
-- Rohan Jigarbhai Shah
+<table>
+  <tr>
+    <td align="center"><a href="http://www.shubhammankar.com/"><img src="https://avatars.githubusercontent.com/u/29366125?v=4" width="75px;" alt=""/><br /><sub><b>Shubham Mankar</b></sub></a></td>
+    <td align="center"><a href="https://github.com/pratikdevnani"><img src="https://avatars.githubusercontent.com/u/43350493?v=4" width="75px;" alt=""/><br /><sub><b>Pratik Devnani</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/moksh98"><img src="https://avatars.githubusercontent.com/u/29693765?v=4" width="75px;" alt=""/><br /><sub><b>Moksh Jain</b></sub></a><br /></td>
+    <td align="center"><a href="https://rahilsarvaiya.tech/"><img src="https://avatars0.githubusercontent.com/u/32304956?v=4" width="75px;" alt=""/><br /><sub><b>Rahil Sarvaiya</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/annie0467"><img src="https://avatars.githubusercontent.com/u/17164255?v=4" width="75px;" alt=""/><br /><sub><b>Anushi Keswani</b></sub></a><br /></td>
+  </tr>
+</table>
+
+:email: Support
+---
+
+For any queries and help, please reach out to us at: secheaper@gmail.com
 				
 ## Acknowledgements <a name="Acknowledgement"></a>
 We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
