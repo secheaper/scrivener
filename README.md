@@ -21,11 +21,11 @@ Transcriptor is a web application that generates a quick summary and analyzes se
   ::
   <a href="#sunflower-demo-website">Demo Website</a>
   ::
-  <a href="#card_index_dividers-some-examples">Examples</a>
-  ::
   <a href="#thought_balloon-use-case">Use Case</a>
   ::
-  <a href="#page_facing_up-why">Why</a>
+  <a href="#page_facing_up-why">Why</a>	
+   ::
+  <a href="#heart-acknowledgements">Support</a>
   ::
   <a href="#sparkles-contributors">Contributors</a>
     ::
@@ -76,6 +76,10 @@ For enhancement of this project following functionalities can be implemented
 - Provide Sentiment Analysis of the generated summary
 - Develop a Discord BOT for SCRIVENER
 
+:heart: Acknowledgements
+---
+We would like to thank Dr. Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project. Also thanks to the amazing teams at [Streamlit](https://streamlit.io/), [Huggingface](https://huggingface.co/) and [Shields.io](https://shields.io/) for their amazing projects!
+
 :sparkles: Contributors
 ---
 
@@ -93,11 +97,3 @@ For enhancement of this project following functionalities can be implemented
 ---
 
 For any queries and help, please reach out to us at: secheaper@gmail.com
-				
-## Acknowledgements <a name="Acknowledgement"></a>
-We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
-- [https://streamlit.io/](https://streamlit.io/)
-- [https://huggingface.co/](https://huggingface.co/)
-- [https://shields.io/](https://shields.io/)
-- [https://www.powtoon.com/](https://www.powtoon.com/)
-- [https://www.heroku.com/](https://www.heroku.com/)
