@@ -49,10 +49,14 @@ class TranscribeAudio:
         for i in range(num_of_files):
             recognizer = sr.Recognizer()
             #Read single audio file chunk
-            audio = sr.AudioFile("temp/"+str(i*2) +"_temp_audio.wav")
+            if num_of_files == 1:
+                audio = sr.AudioFile("temp/temp_audio.wav")
+            else:
+                audio = sr.AudioFile("temp/"+str(i*2) +"_temp_audio.wav")
             #Get audio data
             with audio as src:
                 audio_data = recognizer.record(src)
+            
             #Perform speech to text and store the text
             transcript_text += recognizer.recognize_google(audio_data)
             #Call the summarization script
