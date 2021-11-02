@@ -24,6 +24,9 @@ The group has made the below mentioned functional changes to the project improvi
 4. **Code optimization:** Part of the codebase have been improved by removing repeating lines of code
 
 ## Documentation
+Changes to the documentation were also significant. They are mentioned below.
+1. **README:** The main README went through a total overhaul, and now follows a much more streamlined, colorful and impactful format
+2. **Consistency:** <<<<<< TO ADD AFTER FIXING CODECOV >>>>>>>
 
 ## Testing
 
