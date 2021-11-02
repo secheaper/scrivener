@@ -33,6 +33,9 @@ Transcriptor is a web application that generates a quick summary and analyzes se
   <a href="#email-support">Support</a>
 </p>
 
+---
+<p align="center"><img width="700" src="./media/gif/demo.gif"></p>
+
 :rocket: Installation
 ---
 1. Clone the Git repository and `cd` into the new repo
@@ -50,10 +53,8 @@ cd source
 streamlit run transcriptor.py
 ```
 4. If all went well, you should see the Network URL where this application is running on your local computer
-   
-<p align="center"><img width="700" src="./media/gif/demo.gif"></p>
 
-:sunflower: Demo Webiste
+:sunflower: Demo Website
 ---
 The project is deployed on Streamlit Cloud
 - [Streamlit](https://share.streamlit.io/secheaper/transcriptor/main/source/transcriptor.py)
