@@ -1,7 +1,9 @@
 # Add Repo Image 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-[![GitHub issues](https://img.shields.io/github/issues/secheaper/transcriptor)](https://github.com/secheaper/transcriptor/issues)
+![GitHub issues](https://img.shields.io/github/issues-raw/secheaper/transcriptor)
+![Github closes issues](https://img.shields.io/github/issues-closed-raw/secheaper/transcriptor)
+![Github pull requests](https://img.shields.io/github/issues-pr/secheaper/transcriptor)
 [![GitHub forks](https://img.shields.io/github/forks/secheaper/transcriptor)](https://github.com/secheaper/transcriptor/network)
 [![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
