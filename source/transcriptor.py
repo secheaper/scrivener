@@ -119,10 +119,10 @@ elif input_format == "Upload an Audio File (.wav)":
         # Wait till we run the summarization
         with st.spinner(progress_lines+' . . .'):
             progress_bar.progress(25)
-            # Download the uploaded video file
+            # Download the uploaded audio file
             save_file(file)
             progress_bar.progress(40)
-            # Call TranscribeVideo class 
+            # Call TranscribeAudio class 
             transcribe_audio = TranscribeAudio()
             progress_bar.progress(60)
             # Get summary
