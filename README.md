@@ -25,7 +25,7 @@ Transcriptor is a web application that generates a quick summary and analyzes se
   ::
   <a href="#page_facing_up-why">Why</a>	
    ::
-  <a href="#heart-acknowledgements">Support</a>
+  <a href="#heart-acknowledgements">Acknowledgements</a>
   ::
   <a href="#sparkles-contributors">Contributors</a>
     ::
