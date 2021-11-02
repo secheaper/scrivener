@@ -51,7 +51,7 @@ streamlit transcriptor.py
 ```
 4. If all went well, you should see the Network URL where this application is running on your local computer
    
-<p align="center"><img width="700" src="../../media/gif/demo.gif.gif"></p>
+<p align="center"><img width="700" src="./media/gif/demo.gif"></p>
 
 :sunflower: Demo Webiste
 ---
