@@ -16,41 +16,50 @@ Transcriptor is a web application that generates quick summary and analyzes sent
 - **Easy**: A simple and friendly web interface is provided used to summarize videos 
 - **Powerful**: Transcriptor uses TensorFlow libraries to get highly accurate summaries in no time
 
+<p align="center">
+  <a href="#rocket-installation">Installation</a>
+  ::
+  <a href="#golf-flags-and-command-line-arguments">Flags & Args</a>
+  ::
+  <a href="#card_index_dividers-some-examples">Examples</a>
+  ::
+  <a href="#thought_balloon-use-case">Use Case</a>
+  ::
+  <a href="#page_facing_up-why">Why</a>
+  ::
+  <a href="#sparkles-contributors">Contributors</a>
+    ::
+  <a href="#email-support">Support</a>
+</p>
 
-## Table of Contents
-- [Introduction](#Introduction)
-- [Demo](#Demo)
-- [Steps for Execution](#ExecutionSteps)
-- [License](#License)
-- [Contributions](#Contributions)
-- [Future Scope](#FutureScope)
-- [Team Members](#TeamMember)
-- [Acknowledgements](#Acknowledgement)
+
+:rocket: Installation
+---
+1. Clone the Git repository and `cd` into the new repo
+```
+git clone https://github.com/secheaper/transcriptor.git
+cd slash
+```
+2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of those
+```
+pip3 install -r requirements.txt
+```
+4. Once all the requirements are installed, you will have to ```cd``` into the ```source``` folder. Once in the ```source``` folder, use the streamlit command to run the ```transcriptor.py``` file
+```
+cd source
+streamlit transcriptor.py
+```
+5. If all went well, you should see the Network URL where this application is running on your local computer
 
 ## Introduction <a name="Introduction"></a>
 
 Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features. Our second goal of the project is to create a summarizer which can summarize the youtube videos which have captions disabled. Our project can be further expanded for numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
 
-<h1 align="center">
- <img src="https://github.com/anshulp2912/scrivener/blob/main/media/working_animation/scrivener_working.gif" />
-</h1>
-
-The complete development was achieved using the Python3 technology and it is recommended that the next set of developers who take up this project have these technologies installed and keep them running before proceeding further.
 
 ## Demo <a name="Demo"></a>
 The project is deployed on both Streamlit cloud and Heroku.
 - [Streamlit](https://share.streamlit.io/anshulp2912/scrivener/main/source/scrivener_user_interface.py)
 - [Heroku](https://scrivener-heroku.herokuapp.com/)
-
-## Steps for Execution <a name="ExecutionSteps"></a>
-1. Clone the Git repository.
-2. Run `pip install -r requirements.txt`
-3. Open Command Prompt and change the directory to the location of cloned repository.
-4. Run the command `streamlit run user_interface.py`
-5. Next, open your browser and type in `localhost:8501` in the search bar to open the webUI of the application.
-6. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
-
-<img src="https://github.com/anshulp2912/scrivener/blob/main/media/demo.PNG" />
 
 ## License <a name="License"></a>
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
