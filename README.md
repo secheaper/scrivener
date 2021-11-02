@@ -12,9 +12,9 @@
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 
-Transcriptor is a web application that generates a quick summary and analyzes sentiment for videos using advanced Natural Language Processing techniques. 
-- **Fast**: Transcriptor helps you save over 70% of your time by quickly providing a summary to highlight key points from videos
-- **Easy**: A simple and friendly web interface is provided used to summarize videos 
+Transcriptor is a web application that generates a quick summary and analyzes sentiment for videos/audios using advanced Natural Language Processing techniques. 
+- **Fast**: Transcriptor helps you save over 70% of your time by quickly providing a summary to highlight key points from videos/audios
+- **Easy**: A simple and friendly web interface is provided used to summarize videos/audios
 - **Powerful**: Transcriptor uses TensorFlow libraries to get highly accurate summaries in no time
 
 <p align="center">
@@ -66,15 +66,12 @@ Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/m
 
 ## :crystal_ball:Future Scope <a name="FutureScope"></a>
 For enhancement of this project following functionalities can be implemented
-- Currently our application supports youtube videos and videos with .mp4 extension. Provide support for other video formats
-- Perform summarization for videos in languages other than English
+- Currently our application supports .wav audios, youtube videos and videos with .mp4 extension. Provide support for other video and audio formats
+- Perform summarization for videos/audios in languages other than English
 - Provide summary in form of video
-- Generate summary of videos for specific time frames
+- Generate summary of videos/audios for specific time frames
 - Compare various Summarization models and provide optimal summary
-- UI Enhancement
-- Generate summary of audio for specific time frames
 - Adding Chrome extension for Transcriptor
-- Provide Sentiment Analysis of the generated summary
 - Develop a Discord BOT for transcriptor
 
 :heart: Acknowledgements
