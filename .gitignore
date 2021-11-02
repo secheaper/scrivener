@@ -129,4 +129,4 @@ dmypy.json
 .pyre/
 
 # Node modules
-/source/node_modules
+/node_modules
