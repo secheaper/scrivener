@@ -37,7 +37,7 @@ Transcriptor is a web application that generates a quick summary and analyzes se
 1. Clone the Git repository and `cd` into the new repo
 ```
 git clone https://github.com/secheaper/transcriptor.git
-cd slash
+cd transcriptor
 ```
 2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of those
 ```
