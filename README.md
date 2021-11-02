@@ -19,7 +19,7 @@ Transcriptor is a web application that generates quick summary and analyzes sent
 <p align="center">
   <a href="#rocket-installation">Installation</a>
   ::
-  <a href="#golf-flags-and-command-line-arguments">Flags & Args</a>
+  <a href="#fireworkd-demo-website">Demo Website</a>
   ::
   <a href="#card_index_dividers-some-examples">Examples</a>
   ::
@@ -32,7 +32,6 @@ Transcriptor is a web application that generates quick summary and analyzes sent
   <a href="#email-support">Support</a>
 </p>
 
-
 :rocket: Installation
 ---
 1. Clone the Git repository and `cd` into the new repo
@@ -44,22 +43,17 @@ cd slash
 ```
 pip3 install -r requirements.txt
 ```
-4. Once all the requirements are installed, you will have to ```cd``` into the ```source``` folder. Once in the ```source``` folder, use the streamlit command to run the ```transcriptor.py``` file
+3. Once all the requirements are installed, you will have to ```cd``` into the ```source``` folder. Once in the ```source``` folder, use the streamlit command to run the ```transcriptor.py``` file
 ```
 cd source
 streamlit transcriptor.py
 ```
-5. If all went well, you should see the Network URL where this application is running on your local computer
+4. If all went well, you should see the Network URL where this application is running on your local computer
 
-## Introduction <a name="Introduction"></a>
-
-Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features. Our second goal of the project is to create a summarizer which can summarize the youtube videos which have captions disabled. Our project can be further expanded for numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
-
-
-## Demo <a name="Demo"></a>
-The project is deployed on both Streamlit cloud and Heroku.
-- [Streamlit](https://share.streamlit.io/anshulp2912/scrivener/main/source/scrivener_user_interface.py)
-- [Heroku](https://scrivener-heroku.herokuapp.com/)
+:fireworks: Demo Webiste
+---
+The project is deployed on Streamlit Cloud
+- [Streamlit](https://share.streamlit.io/secheaper/transcriptor/main/source/transcriptor.py)
 
 ## License <a name="License"></a>
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
