@@ -40,7 +40,7 @@ st.markdown("""
     concise summary for the content of any given video. Currently, Transcriptor supports
     summarization of YouTube and local video files.
 """)
-st.subheader("Choose a video to start")
+st.subheader("Choose a video/audio to start")
 # Display Radio options
 input_format = st.radio('Select an input format', ['Youtube Link', 'Upload a Video', 'Upload an Audio File (.wav)'])
 
@@ -130,11 +130,10 @@ elif input_format=='Upload a Video':
         for name in glob('*.mp4'):
             os.remove(name)
 
-
+# If user uploads a local audio
 elif input_format == "Upload an Audio File (.wav)":
     file = st.file_uploader('Upload an Audio File (.wav)',type=['wav'],accept_multiple_files=False)
     if file is not None:
-        # st.video(file)
         # Make a progress bar
         progress_bar = st.progress(0)
         progress_bar.progress(10)
@@ -167,5 +166,5 @@ elif input_format == "Upload an Audio File (.wav)":
         st.audio(audio_bytes, format = 'audio/ogg', start_time=0)
         st.balloons()
     else:
-        for name in glob('*.mp4'):
+        for name in glob('*.wav'):
             os.remove(name)
