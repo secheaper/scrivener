@@ -1,4 +1,4 @@
-# Add Repo Image 
+<p align="center"><img width="700" src="./media/logo/Transcriptor.png"></p>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 ![GitHub issues](https://img.shields.io/github/issues-raw/secheaper/transcriptor)
