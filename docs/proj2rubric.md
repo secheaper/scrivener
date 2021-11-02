@@ -14,17 +14,17 @@ Sr. No| Notes|Score|Evidence|
 8| Docs: what: point descriptions of each class/function (in isolation)	| 1 | |
 9| Number of commits: by different people	| .5 | |
 10| issues are being closed	|1| |
-11| issues are discussed before they are closed	| | |
-12| Use of syntax checkers | | |
-13| Issues reports: there are many| | |
-14| Use of code formatters.	| | |
-15| Use of style checkers	| | |
-16| Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.| | |
-17| test cases exist| | |
-18| Use of code coverage| | |
-19| other automated analysis tools| | |
-20| test cases:.a large proportion of the issues related to handling failing cases.	| | |
-21| test cases are routinely executed	| | | 
-22| Documentation describing how this version improves on the older version	| | |
-23| This version is a little(1), some(2), much(3) improved on the last version | | |
-24 | TOTAL | 16 | |
+11| issues are discussed before they are closed	| .5| |
+12| Use of syntax checkers | .5| |
+13| Issues reports: there are many| 1| |
+14| Use of code formatters.	|.5 | |
+15| Use of style checkers	|.5 | |
+16| Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|.5 | |
+17| test cases exist| .5| |
+18| Use of code coverage| .5| |
+19| other automated analysis tools| .5| |
+20| test cases:.a large proportion of the issues related to handling failing cases.	| .5| |
+21| test cases are routinely executed	| .5| | 
+22| Documentation describing how this version improves on the older version	| 1| |
+23| This version is a little(1), some(2), much(3) improved on the last version | 3| |
+24| TOTAL | 16 | |
