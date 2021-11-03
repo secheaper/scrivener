@@ -4,7 +4,7 @@ sys.path.append('source')
 # sys.path.append('main')
 
 from source.main import helper
-from source.main import transcribe_yt
+# from source.main import transcribe_yt
 from source.main import summarize
 
 # from main import helper 
@@ -42,7 +42,7 @@ def test_Summary():
 #     assert False
 
 
-def test_transcribeVideo():
-    temp = transcribe_yt.TranscribeYtVideo('https://www.youtube.com/watch?v=yaG9mFlrB8k&ab_channel=9to5Mac%27')
-    assert type(temp.transcribe_yt_video()) == str
+# def test_transcribeVideo():
+#     temp = transcribe_yt.TranscribeYtVideo('https://www.youtube.com/watch?v=yaG9mFlrB8k&ab_channel=9to5Mac%27')
+#     assert type(temp.transcribe_yt_video()) == str
 
