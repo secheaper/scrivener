@@ -20,7 +20,7 @@ Sr. No| Notes|Score|Evidence|
 14| Use of code formatters.	|.5 |Checked in GH Actions https://github.com/secheaper/transcriptor/blob/main/.github/workflows/python-app.yml|
 15| Use of style checkers	|.5 |Checked in GH Actions https://github.com/secheaper/transcriptor/blob/main/.github/workflows/python-app.yml|
 16| Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|.5 |Present in readme https://github.com/secheaper/transcriptor/blob/main/README.md|
-17| test cases exist| .5| |
+17| test cases exist| .5|https://github.com/secheaper/transcriptor/tree/main/tests & https://github.com/secheaper/transcriptor/tree/main/tests|
 18| Use of code coverage| .5| |
 19| other automated analysis tools| .5| |
 20| test cases:.a large proportion of the issues related to handling failing cases.	| .5| |
