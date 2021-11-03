@@ -10,7 +10,7 @@
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/tokei/lines/github/secheaper/transcriptor?color=ff69b4&label=Lines%20of%20Code&style=flat-square)
 ![Discord Discussion Chat](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat&style=flat-square)
-![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
+[![codecov](https://codecov.io/gh/secheaper/transcriptor/branch/moksh/2/graph/badge.svg?token=X0H37DUWXV)](https://codecov.io/gh/secheaper/transcriptor)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 
 Transcriptor is a web application that generates a quick summary and analyzes sentiment for videos/audios using advanced Natural Language Processing techniques. 
@@ -37,15 +37,6 @@ Transcriptor is a web application that generates a quick summary and analyzes se
 ---
 <p align="center"><img width="700" src="./media/gif/demo.gif"></p>
 
-<<<<<<< HEAD
-## Steps for Execution <a name="ExecutionSteps"></a>
-1. Clone the Git repository.
-2. Run `pip install -r requirements.txt`
-3. Open Command Prompt and change the directory to the location of cloned repository.
-4. Run the command `streamlit run source/transcriptor.py`
-5. Next, open your browser and type in `localhost:8501` in the search bar to open the webUI of the application.
-6. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
-=======
 :rocket: Installation
 ---
 1. Clone the Git repository and `cd` into the new repo
@@ -63,7 +54,6 @@ cd source
 streamlit run transcriptor.py
 ```
 4. If all went well, you should see the Network URL where this application is running on your local computer
->>>>>>> 435301f33ecf86d1d565fdb42c4c6f8eff409240
 
 :sunflower: Demo Website
 ---
