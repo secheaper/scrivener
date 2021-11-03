@@ -14,7 +14,7 @@ Sr. No| Notes|Score|Evidence|
 8| Docs: what: point descriptions of each class/function (in isolation)	| 1 | |
 9| Number of commits: by different people	| .5 | https://github.com/secheaper/transcriptor/graphs/contributors |
 10| issues are being closed	|1| Everyone is working on closing the issues on time https://github.com/secheaper/transcriptor/issues?q=is%3Aissue+is%3Aclosed|
-11| issues are discussed before they are closed	| .5| |
+11| issues are discussed before they are closed	| .5| discord channel for the same https://discord.com/channels/879343473940107264/879343474393096237|
 12| Use of syntax checkers | .5| |
 13| Issues reports: there are many| 1| Many new issues are created and resolved https://github.com/secheaper/transcriptor/issues |
 14| Use of code formatters.	|.5 | |
