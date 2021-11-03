@@ -41,7 +41,7 @@ class Summary:
         Generate summary for Youtube videos with Closed Captions
         """
         
-        #use summarization model from pipeline object from transformers
+        #use summarization model from pipeline object from transfomrers
         summarizer = pipeline('summarization', model="t5-base", tokenizer="t5-base")
         
         #initializing empty list
@@ -55,5 +55,14 @@ class Summary:
             output = summarizer(self.transcribed_text[start:end])[0]['summary_text']
             #appending summary output of each chunk to summary_text list
             summary_text.append(output)
+        
+        text = ''
+        for i in summary_text:
+            text += i + '\n'
+
+        f = open('summary.txt', 'a')
+        f.write(text)
+        f.close()
+        
         #return summary_text to calling function
         return summary_text

@@ -10,7 +10,7 @@
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/tokei/lines/github/secheaper/transcriptor?color=ff69b4&label=Lines%20of%20Code&style=flat-square)
 ![Discord Discussion Chat](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat&style=flat-square)
-![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
+[![codecov](https://codecov.io/gh/secheaper/transcriptor/branch/moksh/2/graph/badge.svg?token=X0H37DUWXV)](https://codecov.io/gh/secheaper/transcriptor)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 
 Transcriptor is a web application that generates a quick summary and analyzes sentiment for videos/audios using advanced Natural Language Processing techniques. 
