@@ -10,9 +10,9 @@ name: Code Coverage
 
 on:
   push:
-    branches: [ moksh/2 ]
+    branches: [ main ]
   pull_request:
-    branches: [ moksh/2 ]
+    branches: [ main ]
 
 jobs:
   build:
