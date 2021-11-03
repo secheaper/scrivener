@@ -30,7 +30,7 @@ def test_analyzeText():
 # from main.summarize import Summary
 
 def test_Summary():
-    assert type(summary.Summarize("the snail smelly old beermongers . the snail stinky old beersmonger's squirmy old")) == str
+    assert type(summarize.Summarize("the snail smelly old beermongers . the snail stinky old beersmonger's squirmy old")) == str
 
 def test_transcribeVideo():
     assert type(TranscribeYtVideo('https://www.youtube.com/watch?v=yaG9mFlrB8k&ab_channel=9to5Mac').transcribe_yt_video()) == str
