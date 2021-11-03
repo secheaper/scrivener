@@ -2,9 +2,9 @@ import sys
 # insert at 1, 0 is the script path (or '' in REPL)
 sys.path.append('main')
 
-from main import helper
-from main import transcribe_yt
-from main import summarize
+from source.main import helper
+from source.main import transcribe_yt
+from source.main import summarize
 
 # from main import helper 
 
