@@ -1,8 +1,9 @@
 """
-Copyright (c) 2021 Anshul Patel
-This code is licensed under MIT license (see LICENSE.MD for details)
-
-@author: Scrivener
+Copyright (C) 2021 SE Transcriptor - All Rights Reserved
+You may use, distribute and modify this code under the
+terms of the MIT license.
+You should have received a copy of the MIT license with
+this file. If not, please write to: secheaper@gmail.com
 """
 
 # Import Libraries  
@@ -11,7 +12,11 @@ import re
 import os
 from main.transcribe import TranscribeVideo
 from main.transcribe_yt import TranscribeYtVideo
-from main.helper import formatText
+from main.summary_to_audio import toAudio
+
+from main.transcribe_au import TranscribeAudio
+from main.helper import formatText, analyze
+
 import secrets
 from glob import glob
 
@@ -35,9 +40,9 @@ st.markdown("""
     concise summary for the content of any given video. Currently, Transcriptor supports
     summarization of YouTube and local video files.
 """)
-st.subheader("Choose a video to start")
+st.subheader("Choose a video/audio to start")
 # Display Radio options
-input_format = st.radio('Select an input format', ['Youtube Link', 'Upload a Video'])
+input_format = st.radio('Select an input format', ['Youtube Link', 'Upload a Video', 'Upload an Audio File (.wav)'])
 
 # If user provides a Youtube Link
 if input_format=='Youtube Link':
@@ -61,11 +66,22 @@ if input_format=='Youtube Link':
             # Get summary
             summary = transcribe_video.transcribe_yt_video()
             progress_bar.progress(80)
-        # Complete progress bar to 100
-        progress_bar.progress(100)
+        # Complete progress bar to 90
+        progress_bar.progress(90)
+        # Analyze sentiment
+        sentiment = analyze(summary)
         # Display Summary
         st.subheader('Summary')
         st.write(formatText(summary))
+        progress_bar.progress(100)
+        st.markdown(f'Our analysis says that this text is **{sentiment[0]}**')
+
+        audio_summary = toAudio()
+        audio_summary.convert_to_audio(summary)
+        audio_file = open("converted.mp3", 'rb')
+        audio_bytes = audio_file.read()
+        st.header("Audio of Summary")
+        st.audio(audio_bytes, format = 'audio/ogg', start_time=0)
         st.balloons()
         
     
@@ -95,12 +111,60 @@ elif input_format=='Upload a Video':
             progress_bar.progress(60)
             # Get summary
             summary = transcribe_video.transcribe_video(os.path.join(os.getcwd(), file.name))
-        # Complete progress bar to 100
-        progress_bar.progress(100)
+        # Complete progress bar to 90
+        progress_bar.progress(90)
+        # Analyze sentiment
+        sentiment = analyze(summary)
         # Display Summary
         st.header('Summary')
         st.write(summary)
+        progress_bar.progress(100)
+        st.markdown(f'Our analysis says that this text is **{sentiment[0]}**')
+        audio_summary = toAudio()
+        audio_summary.convert_to_audio(summary)
+        audio_file = open("converted.mp3", 'rb')
+        audio_bytes = audio_file.read()
+        st.header("Audio of Summary")
         st.balloons()
     else:
         for name in glob('*.mp4'):
+            os.remove(name)
+
+# If user uploads a local audio
+elif input_format == "Upload an Audio File (.wav)":
+    file = st.file_uploader('Upload an Audio File (.wav)',type=['wav'],accept_multiple_files=False)
+    if file is not None:
+        # Make a progress bar
+        progress_bar = st.progress(0)
+        progress_bar.progress(10)
+        # Decorative material
+        progress_lines = secrets.choice(wittyThings)
+        # Wait till we run the summarization
+        with st.spinner(progress_lines+' . . .'):
+            progress_bar.progress(25)
+            # Download the uploaded audio file
+            save_file(file)
+            progress_bar.progress(40)
+            # Call TranscribeAudio class 
+            transcribe_audio = TranscribeAudio()
+            progress_bar.progress(60)
+            # Get summary
+            summary = transcribe_audio.transcribe_audio(os.path.join(os.getcwd(), file.name))
+        # Complete progress bar to 100
+        progress_bar.progress(100)
+        # Analyze sentiment
+        sentiment = analyze(summary)
+        # Display Summary
+        st.header('Summary')
+        st.write(summary)
+        st.markdown(f'Our analysis says that this text is **{sentiment[0]}**')
+        audio_summary = toAudio()
+        audio_summary.convert_to_audio(summary)
+        audio_file = open("converted.mp3", 'rb')
+        audio_bytes = audio_file.read()
+        st.header("Audio of Summary")
+        st.audio(audio_bytes, format = 'audio/ogg', start_time=0)
+        st.balloons()
+    else:
+        for name in glob('*.wav'):
             os.remove(name)

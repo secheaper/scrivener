@@ -1,8 +1,9 @@
 """
-Copyright (c) 2021 Anshul Patel
-This code is licensed under MIT license (see LICENSE.MD for details)
-
-@author: Scrivener
+Copyright (C) 2021 SE Transcriptor - All Rights Reserved
+You may use, distribute and modify this code under the
+terms of the MIT license.
+You should have received a copy of the MIT license with
+this file. If not, please write to: secheaper@gmail.com
 """
 
 # Import Libraries
@@ -13,7 +14,6 @@ class splitwavaudio():
     """
     A class used to split audio into segment for text extraction
     ...
-
     Attributes
     ----------
     folder: str
@@ -88,6 +88,9 @@ class splitwavaudio():
             split duration in mins
         """
         total_mins = math.ceil(self.get_duration() / 60)
+        print("Total mins: ", total_mins)
+        if total_mins < 2:
+            return 1
         num_of_splits = total_mins / min_per_split
         # Call single_split to create multiple wav files
         for i in range(0, total_mins, min_per_split):
