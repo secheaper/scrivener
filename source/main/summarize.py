@@ -55,8 +55,12 @@ class Summary:
             #appending summary output of each chunk to summary_text list
             summary_text.append(output)
         
+        text = ''
+        for i in summary_text:
+            text += i + '\n'
+
         f = open('summary.txt', 'a')
-        f.write(summary_text)
+        f.write(text)
         f.close()
         
         #return summary_text to calling function
