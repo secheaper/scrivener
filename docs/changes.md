@@ -29,5 +29,8 @@ Changes to the documentation were also significant. They are mentioned below.
 2. **Consistency:** <<<<<< TO ADD AFTER FIXING CODECOV >>>>>>>
 
 ## Testing
+Testing has one of the biggest deltas in this update. The previous project was not executing any tests. In this update, tons of tests have been added to the project.
+1. **Automated Tests:** Multiple testcases are executed each time a push is made or a pull request is merged on main.
+2. **Style checkers:** Style and format checkers have been added to Github Actions as well. This maintains the quality of the code in the project.
 
 ## User Interface
