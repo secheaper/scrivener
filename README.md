@@ -1,6 +1,7 @@
 <p align="center"><img width="700" src="./media/logo/Transcriptor.png"></p>
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+[![Python Application](https://github.com/secheaper/transcriptor/actions/workflows/python-app.yml/badge.svg)](https://github.com/secheaper/transcriptor/actions/workflows/python-app.yml)
 ![GitHub issues](https://img.shields.io/github/issues-raw/secheaper/transcriptor)
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/secheaper/transcriptor)
 ![Github pull requests](https://img.shields.io/github/issues-pr/secheaper/transcriptor)
