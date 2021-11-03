@@ -3,9 +3,9 @@ import sys
 sys.path.append('source')
 # sys.path.append('main')
 
-from source.main import helper
+from main import helper
 # from source.main import transcribe_yt
-from source.main import summarize
+from main import summarize
 
 # from main import helper 
 
