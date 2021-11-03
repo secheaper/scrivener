@@ -14,7 +14,6 @@ class splitwavaudio():
     """
     A class used to split audio into segment for text extraction
     ...
-
     Attributes
     ----------
     folder: str
