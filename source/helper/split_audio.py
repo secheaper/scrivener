@@ -46,14 +46,18 @@ class splitwavaudio():
         self.folder = folder
         self.filename = filename
         self.filepath = folder + '/' + filename
-        self.audio = AudioSegment.from_wav(self.filepath)	
+        self.audio = AudioSegment.from_wav(self.filepath)
+
 	
     def get_duration(self):
         """ 
         Returns time of audio
         """
         return self.audio.duration_seconds
-    
+
+    def get_time(self, mins):
+        return mins * 60 * 1000
+
     def single_split(self, from_min, to_min, split_filename):
         """ 
         Create files for every split
@@ -67,8 +71,8 @@ class splitwavaudio():
         """
         # t1 - start time in milliseconds
         # t2 - end time in milliseconds
-        t1 = from_min * 60 * 1000
-        t2 = to_min * 60 * 1000
+        t1 = self.get_time(from_min)
+        t2 = self.get_time(to_min)
         # split audio
         split_audio = self.audio[t1:t2]
         # export each split to audio file
