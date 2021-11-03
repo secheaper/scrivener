@@ -7,7 +7,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/secheaper/transcriptor)](https://github.com/secheaper/transcriptor/network)
 [![DOI](https://zenodo.org/badge/415427314.svg)](https://zenodo.org/badge/latestdoi/415427314)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
-![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
+![Lines of code](https://img.shields.io/tokei/lines/github/secheaper/transcriptor?color=ff69b4&label=Lines%20of%20Code&style=flat-square)
 ![Discord Discussion Chat](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat&style=flat-square)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
