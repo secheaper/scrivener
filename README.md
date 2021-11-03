@@ -5,6 +5,7 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/secheaper/transcriptor)
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/secheaper/transcriptor)
 ![Github pull requests](https://img.shields.io/github/issues-pr/secheaper/transcriptor)
+![Release](https://img.shields.io/github/v/release/secheaper/transcriptor?style=flat-square)
 [![GitHub forks](https://img.shields.io/github/forks/secheaper/transcriptor)](https://github.com/secheaper/transcriptor/network)
 [![DOI](https://zenodo.org/badge/415427314.svg)](https://zenodo.org/badge/latestdoi/415427314)
 [![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
@@ -12,6 +13,7 @@
 ![Discord Discussion Chat](https://img.shields.io/discord/879343473940107264?color=blueviolet&label=Discord%20Discussion%20Chat&style=flat-square)
 [![codecov](https://codecov.io/gh/secheaper/transcriptor/branch/main/graph/badge.svg?token=X0H37DUWXV)](https://codecov.io/gh/secheaper/transcriptor)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
+
 
 Transcriptor is a web application that generates a quick summary and analyzes sentiment for videos/audios using advanced Natural Language Processing techniques. 
 - **Fast**: Transcriptor helps you save over 70% of your time by quickly providing a summary to highlight key points from videos/audios
