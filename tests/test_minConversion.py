@@ -1,8 +1,6 @@
 import sys
 sys.path.append('C:\\NCSU\\Sem 1\\SE\\Project 2\\transcriptor\\source\\helper')
 
-print(sys.path)
-
 import split_audio
 
 def test_min():
@@ -14,4 +12,4 @@ def test_min():
 
     assert swa.get_duration(1) == 60000
 
-test_min()
+print(test_min())
