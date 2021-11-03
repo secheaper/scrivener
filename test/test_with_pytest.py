@@ -2,9 +2,11 @@ import sys
 # insert at 1, 0 is the script path (or '' in REPL)
 sys.path.append('main')
 
-from main import helper
-from main import summarize
-from main.transcribe_yt import TranscribeYtVideo
+from source.main import helper
+from source.main import transcribe_yt
+from source.main import summarize
+
+# from main import helper 
 
 def test_always_passes():
     assert True
@@ -27,13 +29,19 @@ def test_analyzeText():
     assert helper.analyze("very happy")[0] in sentiments
     assert helper.analyze("decent")[0] in sentiments
    
-# from main.summarize import Summary
 
 def test_Summary():
-    assert type(summarize.Summarize("the snail smelly old beermongers . the snail stinky old beersmonger's squirmy old")) == str
+    temp = summarize.Summary("the snail smelly old beermongers . the snail stinky old beersmonger's squirmy old").summarize_text()
+    assert type(temp) == list and len(temp) > 0
 
-def test_transcribeVideo():
-    assert type(TranscribeYtVideo('https://www.youtube.com/watch?v=yaG9mFlrB8k&ab_channel=9to5Mac').transcribe_yt_video()) == str
+# def test_transcribeVideo():
+#     assert type(TranscribeYtVideo('https://www.youtube.com/watch?v=yaG9mFlrB8k&ab_channel=9to5Mac').transcribe_yt_video()) == str
 
 # def test_always_fails():
 #     assert False
+
+
+def test_transcribeVideo():
+    temp = transcribe_yt.TranscribeYtVideo('https://www.youtube.com/watch?v=yaG9mFlrB8k&ab_channel=9to5Mac%27')
+    assert type(temp.transcribe_yt_video()) == str
+
