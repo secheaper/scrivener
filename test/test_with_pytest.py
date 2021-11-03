@@ -2,9 +2,9 @@ import sys
 # insert at 1, 0 is the script path (or '' in REPL)
 sys.path.append('main')
 
-from source.main import helper
-from source.main import transcribe_yt
-from source.main import summarize
+from main import helper
+from main import transcribe_yt
+from main import summarize
 
 # from main import helper 
 
@@ -28,12 +28,12 @@ def test_analyzeText():
     assert helper.analyze("sad")[0] in sentiments
     assert helper.analyze("very happy")[0] in sentiments
     assert helper.analyze("decent")[0] in sentiments
-   
+
 
 def test_Summary():
     temp = summarize.Summary("the snail smelly old beermongers . the snail stinky old beersmonger's squirmy old").summarize_text()
     assert type(temp) == list and len(temp) > 0
-
+   
 # def test_transcribeVideo():
 #     assert type(TranscribeYtVideo('https://www.youtube.com/watch?v=yaG9mFlrB8k&ab_channel=9to5Mac').transcribe_yt_video()) == str
 
