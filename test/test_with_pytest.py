@@ -1,8 +1,10 @@
 import sys
 # insert at 1, 0 is the script path (or '' in REPL)
-sys.path.append('source/main')
+sys.path.append('main')
 
-import helper
+from main import helper
+
+# from main import helper 
 
 def test_always_passes():
     assert True
