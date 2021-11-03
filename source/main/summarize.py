@@ -55,5 +55,9 @@ class Summary:
             #appending summary output of each chunk to summary_text list
             summary_text.append(output)
         
+        f = open('summary.txt', 'a')
+        f.write(summary_text)
+        f.close()
+        
         #return summary_text to calling function
         return summary_text
