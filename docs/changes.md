@@ -34,4 +34,10 @@ Testing has one of the biggest deltas in this update. The previous project was n
 2. **Style checkers:** Style and format checkers have been added to Github Actions as well. This maintains the quality of the code in the project.
 
 ## User Interface
-User Interface has been redone from the ground up to neatly navigate the user to the right places in the project. It follows a very simple and modeern asthetic and it very intuitive to use. The before and after versions of the project website are as shown below - 
+User Interface has been redone from the ground up to neatly navigate the user to the right places in the project. It follows a very simple and modeern asthetic and it very intuitive to use. The before and after versions of the project website are respectively as shown below - 
+<p align="center">
+  <img width="700" src="../media/demo/old.png">
+</p>
+<p align="center">
+  <img width="700" src="../media/demo/new.png">
+</p>
