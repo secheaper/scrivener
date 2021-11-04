@@ -1,15 +1,15 @@
-# import sys
-# sys.path.append('C:\\NCSU\\Sem 1\\SE\\Project 2\\transcriptor\\source\\helper')
+import sys
+# insert at 1, 0 is the script path (or '' in REPL)
+sys.path.append('source')
+# sys.path.append('main')
 
-# import split_audio
+from helper import split_audio
 
-# def test_min():
-#     """
-#     Checks if number of minutes is correctly converted to seconds
-#     """
+def test_min():
+    """
+    Checks if number of minutes is correctly converted to seconds
+    """
 
-#     swa = split_audio.splitwavaudio(r"C:\NCSU\Sem 1\SE\Project 2\transcriptor\test", r"C:\NCSU\Sem 1\SE\Project 2\transcriptor\test\valid video 1.mp4")
+    swa = split_audio.splitwavaudio('./', 'audio_files_jackhammer.wav')
 
-#     assert swa.get_duration(1) == 60000
-
-# print(test_min())
+    assert swa.get_time(1) == 60000
