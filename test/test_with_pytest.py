@@ -1,6 +1,6 @@
 import sys
 # insert at 1, 0 is the script path (or '' in REPL)
-sys.path.append('main')
+sys.path.append('source')
 
 from source.main import helper
 from source.main import transcribe_yt
