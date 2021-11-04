@@ -6,7 +6,7 @@ Sr. No| Notes|Score|Evidence|
 |----|--------|------|-------|
 1| short release cycles| .5 |https://github.com/secheaper/transcriptor/releases/|
 2| workload is spread over the whole team (so one team member is often Xtimes more productive than the others... | .5| All contributors have made significant commits in the codebase.https://github.com/secheaper/transcriptor/graphs/contributors|
-3| Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|.5||
+3| Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|.5|https://github.com/secheaper/transcriptor#readme|
 4| the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up |.5|https://github.com/secheaper/transcriptor/blob/main/CONTRIBUTING.md|
 5| Docs: doco generated , format not ugly|.5| all docs at https://github.com/secheaper/transcriptor/tree/main/docs|
 6| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) |.5|Code file is updated by multiple people https://github.com/secheaper/transcriptor/blob/main/source/transcriptor.py|
@@ -22,9 +22,9 @@ Sr. No| Notes|Score|Evidence|
 16| Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|.5 |Present in readme https://github.com/secheaper/transcriptor/blob/main/README.md|
 17| test cases exist| .5|https://github.com/secheaper/transcriptor/tree/main/tests & https://github.com/secheaper/transcriptor/tree/main/tests|
 18| Use of code coverage| .5|Present in README & implemented https://github.com/secheaper/transcriptor/blob/main/.github/workflows/code_coverage.yml|
-19| other automated analysis tools| .5| |
-20| test cases:.a large proportion of the issues related to handling failing cases.	| .5|https://github.com/secheaper/transcriptor/tree/main/test & https://github.com/secheaper/transcriptor/tree/main/tests|
+19| other automated analysis tools| .5|Actions automatically react to changes in the poject https://github.com/secheaper/transcriptor/actions|
+20| test cases:.a large proportion of the issues related to handling failing cases.	| 0|https://github.com/secheaper/transcriptor/tree/main/test & https://github.com/secheaper/transcriptor/tree/main/tests|
 21| test cases are routinely executed	| .5|https://github.com/secheaper/transcriptor/actions| 
 22| Documentation describing how this version improves on the older version	| 1| Markdown file present in docs https://github.com/secheaper/transcriptor/blob/main/docs/changes.md|
-23| This version is a little(1), some(2), much(3) improved on the last version | 3| |
-24| TOTAL | 16 | |
+23| This version is a little(1), some(2), much(3) improved on the last version | 3| https://github.com/secheaper/transcriptor/blob/main/docs/changes.md|
+24| TOTAL | 15.5 | |
