@@ -24,7 +24,7 @@ Sr. No| Notes|Score|Evidence|
 18| Use of code coverage| .5|Present in README & implemented https://github.com/secheaper/transcriptor/blob/main/.github/workflows/code_coverage.yml|
 19| other automated analysis tools| .5| |
 20| test cases:.a large proportion of the issues related to handling failing cases.	| .5| |
-21| test cases are routinely executed	| .5| | 
+21| test cases are routinely executed	| .5|https://github.com/secheaper/transcriptor/actions| 
 22| Documentation describing how this version improves on the older version	| 1| Markdown file present in docs https://github.com/secheaper/transcriptor/blob/main/docs/changes.md|
 23| This version is a little(1), some(2), much(3) improved on the last version | 3| |
 24| TOTAL | 16 | |
