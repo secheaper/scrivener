@@ -12,4 +12,4 @@ def test_min():
 
     swa = split_audio.splitwavaudio('.', 'audio_files_jackhammer.wav')
 
-    assert swa.get_time(1) == 60000
+    assert swa.get_time(1)==60000
