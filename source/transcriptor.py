@@ -162,7 +162,7 @@ elif input_format == "Upload an Audio File (.wav)":
         audio_summary.convert_to_audio(summary)
         audio_file = open("converted.mp3", 'rb')
         audio_bytes = audio_file.read()
-        st.header("Audio of Summary")
+        st.subheader("Audio of Summary")
         st.audio(audio_bytes, format = 'audio/ogg', start_time=0)
         st.balloons()
     else:
