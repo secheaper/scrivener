@@ -26,7 +26,7 @@ The group has made the below mentioned functional changes to the project improvi
 ## Documentation
 Changes to the documentation were also significant. They are mentioned below.
 1. **README:** The main README went through a total overhaul, and now follows a much more streamlined, colorful and impactful format
-2. **Consistency:** <<<<<< TO ADD AFTER FIXING CODECOV >>>>>>>
+2. **Consistency:** Badges within the readme were all hardcoded and were not reflecting the actual state of the project. This has now been fixed to display the correct values consistently. 
 
 ## Testing
 Testing has one of the biggest deltas in this update. The previous project was not executing any tests. In this update, tons of tests have been added to the project.
@@ -34,3 +34,4 @@ Testing has one of the biggest deltas in this update. The previous project was n
 2. **Style checkers:** Style and format checkers have been added to Github Actions as well. This maintains the quality of the code in the project.
 
 ## User Interface
+User Interface has been redone from the ground up to neatly navigate the user to the right places in the project. It follows a very simple and modeern asthetic and it very intuitive to use. The before and after versions of the project website are as shown below - 
