@@ -25,11 +25,11 @@ Transcriptor is a web application that generates a quick summary and analyzes se
   ::
   <a href="#sunflower-demo-website">Demo Website</a>
   ::
-  <a href="#thought_balloon-use-case">Use Case</a>
+  <a href="#page_facing_up-license">License</a>
   ::
-  <a href="#page_facing_up-why">Why</a>	
+  <a href="#pencil2-contributions">Contributions</a>	
    ::
-  <a href="#heart-acknowledgements">Acknowledgements</a>
+  <a href="#crystal_ball-future-scope">Future Scope</a>
   ::
   <a href="#sparkles-contributors">Contributors</a>
     ::
@@ -62,13 +62,16 @@ streamlit run transcriptor.py
 The project is deployed on Streamlit Cloud
 - [Streamlit](https://share.streamlit.io/secheaper/transcriptor/main/source/transcriptor.py)
 
-## :page_facing_up: License <a name="License"></a>
+:page_facing_up: License
+---
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
 
-## :pencil2: Contributions <a name="Contributions"></a>
+:pencil2: Contributions
+---
 Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
 
-## :crystal_ball:Future Scope <a name="FutureScope"></a>
+:crystal_ball: Future Scope
+---
 For enhancement of this project following functionalities can be implemented
 - Currently our application supports .wav audios, youtube videos and videos with .mp4 extension. Provide support for other video and audio formats
 - Perform summarization for videos/audios in languages other than English
