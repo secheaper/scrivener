@@ -4,12 +4,13 @@ sys.path.append('source')
 # sys.path.append('main')
 
 from helper import split_audio
-
+import os
 def test_min():
     """
     Checks if number of minutes is correctly converted to seconds
     """
-
-    swa = split_audio.splitwavaudio('.', 'audio_files_jackhammer.wav')
+    folder = os.getcwd() + "/"
+    file = 'audio_files_jackhammer.wav'
+    swa = split_audio.splitwavaudio(folder, file)
 
     assert swa.get_time(1)==60000
