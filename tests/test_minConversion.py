@@ -10,6 +10,6 @@ def test_min():
     Checks if number of minutes is correctly converted to seconds
     """
 
-    swa = split_audio.splitwavaudio('./', 'audio_files_jackhammer.wav')
+    swa = split_audio.splitwavaudio('.', 'audio_files_jackhammer.wav')
 
     assert swa.get_time(1) == 60000
