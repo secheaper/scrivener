@@ -36,11 +36,13 @@ class Summary:
         """
         self.transcribed_text = transcribed_text
     
-    def summarize_text(self):
+    def summarize_text(self, sm=0):
         """ 
         Generate summary for Youtube videos with Closed Captions
         """
-        
+
+        if sm: return None
+
         #use summarization model from pipeline object from transfomrers
         summarizer = pipeline('summarization', model="t5-base", tokenizer="t5-base")
         
