@@ -8,7 +8,7 @@ Sr. No| Notes|Score|Evidence|
 2| workload is spread over the whole team (so one team member is often Xtimes more productive than the others... | .5| All contributors have made significant commits in the codebase.https://github.com/secheaper/transcriptor/graphs/contributors|
 3| Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|.5|https://github.com/secheaper/transcriptor#readme|
 4| the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up |.5|https://github.com/secheaper/transcriptor/blob/main/CONTRIBUTING.md|
-5| Docs: doco generated , format not ugly|.5| all docs at https://github.com/secheaper/transcriptor/tree/main/docs|
+5| Docs: doco generated , format not ugly|.5| all docs at https://github.com/secheaper/transcriptor/tree/main/docs/pydoc|
 6| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) |.5|Code file is updated by multiple people https://github.com/secheaper/transcriptor/blob/main/source/transcriptor.py|
 7| evidence that the members of the team are working across multiple places in the code base|.5|The network shows commits to various parts of the project https://github.com/secheaper/transcriptor/network|
 8| Docs: what: point descriptions of each class/function (in isolation)	| 1 |Docstrings present for each entity https://github.com/secheaper/transcriptor/tree/main/source|
