@@ -80,7 +80,7 @@ if input_format=='Youtube Link':
         audio_summary.convert_to_audio(summary)
         audio_file = open("converted.mp3", 'rb')
         audio_bytes = audio_file.read()
-        st.header("Audio of Summary")
+        st.subheader("Audio of Summary")
         st.audio(audio_bytes, format = 'audio/ogg', start_time=0)
         st.balloons()
         
@@ -124,7 +124,7 @@ elif input_format=='Upload a Video':
         audio_summary.convert_to_audio(summary)
         audio_file = open("converted.mp3", 'rb')
         audio_bytes = audio_file.read()
-        st.header("Audio of Summary")
+        st.subheader("Audio of Summary")
         st.balloons()
     else:
         for name in glob('*.mp4'):
@@ -155,7 +155,7 @@ elif input_format == "Upload an Audio File (.wav)":
         # Analyze sentiment
         sentiment = analyze(summary)
         # Display Summary
-        st.header('Summary')
+        st.subheader('Summary')
         st.write(summary)
         st.markdown(f'Our analysis says that this text is **{sentiment[0]}**')
         audio_summary = toAudio()
