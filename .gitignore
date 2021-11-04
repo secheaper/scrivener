@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 
 /ffmpeg
+.DS_Store
+media/.DS_Store
+media/logo/.DS_Store
