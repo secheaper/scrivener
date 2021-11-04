@@ -9,7 +9,7 @@ def test_min():
     """
     Checks if number of minutes is correctly converted to seconds
     """
-    folder = os.getcwd()
+    folder = os.getcwd() + '/source'
     file = 'audio_files_jackhammer.wav'
     swa = split_audio.splitwavaudio(folder, file)
 
