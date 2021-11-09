@@ -21,7 +21,8 @@ The group has made the below mentioned functional changes to the project improvi
 1. **Audio Files:** This version added support for summarization of .wav audio files
 2. **Sentiment Analysis:** The summary now is analyzed using Natural Language Processing and the sentiment is also returned.
 3. **Summary Format:** The generated summary is now properly formatted
-4. **Code optimization:** Part of the codebase have been improved by removing repeating lines of code
+4. **Summary in the form of Audio:** The summary is now available in the form of Audio
+5. **Code optimization:** Part of the codebase have been improved by removing repeating lines of code
 
 ## Documentation
 Changes to the documentation were also significant. They are mentioned below.
@@ -34,7 +35,7 @@ Testing has one of the biggest deltas in this update. The previous project was n
 2. **Style checkers:** Style and format checkers have been added to Github Actions as well. This maintains the quality of the code in the project.
 
 ## User Interface
-User Interface has been redone from the ground up to neatly navigate the user to the right places in the project. It follows a very simple and modeern asthetic and it very intuitive to use. The before and after versions of the project website are respectively as shown below - 
+User Interface has been redone from the ground up to neatly navigate the user to the right places in the project. It follows a very simple and modern asthetic and it very intuitive to use. The before and after versions of the project website are respectively as shown below - 
 <p align="center">
   <img width="700" src="../media/demo/old.png">
 </p>
